@@ -8334,6 +8334,7 @@ body {
     display: inline-block;
     border-radius: 2px;
     padding: 10px 18px;
+    outline: none;
     border: 0;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -8346,6 +8347,15 @@ body {
     line-height: 20px;
     text-transform: none;
     text-decoration: none; }
+    .seller-landing-page__btn:active, .seller-landing-page__btn:focus {
+      outline: none;
+      border: none; }
+    .seller-landing-page__btn:hover {
+      box-shadow: 0 15px 13px 0 rgba(56, 147, 217, 0.27);
+      transform: scale(1.1, 1.1);
+      -webkit-transform: scale(1.1, 1.1);
+      -moz-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1); }
     .seller-landing-page__btn:hover {
       box-shadow: 0 15px 13px 0 rgba(56, 147, 217, 0.27);
       transform: scale(1.1, 1.1);
@@ -8363,6 +8373,23 @@ body {
       color: #fff; }
     .seller-landing-page__btn--wa {
       background-color: #4cba7e; }
+      .seller-landing-page__btn--wa:hover {
+        box-shadow: 0 15px 13px 0 rgba(76, 186, 126, 0.27);
+        transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1); }
+    .seller-landing-page__btn--wa-lg {
+      background-color: #4cba7e;
+      display: block;
+      margin: 32px auto;
+      padding: 18px 252px; }
+      .seller-landing-page__btn--wa-lg:hover {
+        box-shadow: 0 15px 13px 0 rgba(76, 186, 126, 0.27);
+        transform: scale(1.1, 1.1);
+        -webkit-transform: scale(1.1, 1.1);
+        -moz-transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1); }
     .seller-landing-page__btn--help-advertise {
       width: 321px;
       height: 48px;
@@ -8463,7 +8490,7 @@ body {
       margin: 16px;
       font-stretch: normal;
       letter-spacing: normal;
-      display: inline-block;
+      display: block;
       text-align: center; }
     .seller-landing-page-main__sub-title {
       font-family: "Work Sans", "Roboto", sans-serif;
@@ -8674,17 +8701,27 @@ body {
     width: 100vw;
     height: 931px;
     background-image: linear-gradient(237deg, #f9fafc, #e1e4ff 51%, #c5e2ff);
-    text-align: center; }
-    .seller-landing-page .section-six h1 {
+    text-align: center;
+    margin-top: 48px; }
+    .seller-landing-page .section-six__line {
+      display: inline-block;
+      width: 285px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #afc1e7; }
+    .seller-landing-page .section-six__little-text {
       font-family: "Work Sans", "Roboto", sans-serif;
-      font-size: 32px;
-      font-weight: bold;
+      font-weight: 500;
+      font-size: 14px;
       font-style: normal;
+      color: #3e4246;
+      line-height: 19px;
+      text-transform: none;
+      text-decoration: none;
       font-stretch: normal;
-      line-height: 1.31;
       letter-spacing: normal;
       text-align: center;
-      color: #3e4246; }
+      margin: 15px; }
   .seller-landing-page-form {
     width: 648px;
     height: 582px;
@@ -8701,16 +8738,101 @@ body {
       line-height: normal;
       letter-spacing: normal;
       text-align: center;
-      color: #3e4246;
-      padding: 32px 105px;
-      margin: 0; }
+      color: #3e4246; }
+      .seller-landing-page-form__title:first-child {
+        padding-top: 32px; }
     .seller-landing-page-form .form-group {
       text-align: left; }
-      .seller-landing-page-form .form-group .button-submit {
-        width: 322px;
-        height: 48px;
-        border-radius: 2px;
-        background-color: #3893d9; }
+      .seller-landing-page-form .form-group label {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        font-style: normal;
+        color: #4a4a4a;
+        line-height: 19px;
+        text-transform: none;
+        text-decoration: none;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #4a4a4a; }
+    .seller-landing-page-form button {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      font-style: normal;
+      color: #fff;
+      line-height: 19px;
+      text-transform: none;
+      text-decoration: none;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      width: 256px;
+      height: 48px;
+      background-color: #3893d9;
+      border: 0;
+      transition: all 1s; }
+      .seller-landing-page-form button:hover {
+        box-shadow: 0 15px 13px 0 rgba(56, 147, 217, 0.27); }
+  .seller-landing-page-footer {
+    height: 77px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #303034;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    width: 100vw; }
+    .seller-landing-page-footer h5 {
+      margin: 0;
+      padding: 27px; }
+    .seller-landing-page-footer__fill-1 {
+      display: inline-block;
+      position: absolute;
+      background-size: cover;
+      object-fit: contain;
+      width: 183px;
+      height: 318px;
+      opacity: 0.5;
+      background-image: url("asset2/fill-1.svg");
+      bottom: 3%;
+      left: 0; }
+    .seller-landing-page-footer__fill-2 {
+      display: inline-block;
+      position: absolute;
+      background-size: cover;
+      object-fit: contain;
+      width: 251px;
+      height: 265px;
+      opacity: 0.8;
+      background-image: url("asset2/fill-2.svg");
+      right: 0;
+      bottom: 11%; }
+    .seller-landing-page-footer__fill-3 {
+      display: inline-block;
+      position: absolute;
+      background-size: cover;
+      object-fit: contain;
+      width: 34px;
+      height: 40px;
+      opacity: 0.8;
+      background-image: url("asset2/fill-4.svg"); }
+      .seller-landing-page-footer__fill-3--right {
+        right: 11%;
+        bottom: 14%;
+        transform: rotate(-87deg); }
+      .seller-landing-page-footer__fill-3--left {
+        left: 18%;
+        bottom: 15%; }
+    .seller-landing-page-footer__leaf {
+      display: inline-block;
+      position: absolute;
+      background-size: cover;
+      width: 180px;
+      height: 169px;
+      object-fit: contain;
+      background-image: url("asset2/footer-leaf.svg");
+      right: 5%;
+      bottom: -37px; }
 
 @keyframes fadein {
   from {
