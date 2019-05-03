@@ -366,6 +366,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
 
+        //$('#name').focus();
+
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50 ) {
                 $('.seller-landing-page-nav').addClass('seller-landing-page-nav--scroll');
@@ -377,6 +379,14 @@
                 $('.section-one').removeClass('section-one');
             }
         });
+
+        callMe = function() {
+            $('html, body').animate({
+                scrollTop: $('.section-six').offset().top
+            }, 1000, function() {
+                $("#name").focus();
+            });
+        };
 
         $.fn.isInViewport = function() {
             var elementTop = $(this).offset().top;
