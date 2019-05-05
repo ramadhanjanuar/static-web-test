@@ -278,7 +278,7 @@
         <span class="seller-landing-page__horizontal-line test hidden-content"></span>
 
         <section class="text-center section-five test hidden-content">
-            <img src="https://public.urbanindo.com/images/seller-landing-page/asset2/question-mark.svg" class="question-mark-icon test hidden-content" alt="image">
+            <img src="https://public.urbanindo.com/images/seller-landing-page/question-mark.svg" class="question-mark-icon test hidden-content" alt="image">
             <h1 class="seller-landing-page-main__title test hidden-content">Pertanyaan yang Sering Ditanyakan Tentang 99.co Indonesia</h1>
             <div class="seller-landing-page-main-questions test hidden-content">
                 <div class="seller-landing-page-main-questions__question">
@@ -359,9 +359,12 @@
             </div>
             <button type="submit">Kirim</button>
         </form>
-        <span class="section-six__line"></span>
-        <span class="section-six__little-text">Atau</span>
-        <span class="section-six__line"></span>
+
+        <div>
+            <span class="section-six__line"></span>
+            <span class="section-six__little-text">Atau</span>
+            <span class="section-six__line"></span>
+        </div>
 
         <button class="seller-landing-page__btn seller-landing-page__btn--wa-lg">
             <i class="fab fa-whatsapp fa-lg"></i> Check Whatsapp
@@ -395,6 +398,12 @@
             if ($(document).scrollTop() > 250 ) {
                 $('.section-one').removeClass('section-one');
             }
+
+            if ($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
+                $('.seller-landing-page-nav-button').css('display', 'none')
+            } else {
+                $('.seller-landing-page-nav-button').css('display', 'block');
+            }
         });
 
         callMe = function() {
@@ -422,7 +431,7 @@
                 }
             });
         });
+
     </script>
 </body>
 </html>
-
