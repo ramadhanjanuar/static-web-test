@@ -8474,7 +8474,7 @@ body {
       margin-bottom: 37px;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url("asset2/illustration-header.svg"); }
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/illustration-header.svg"); }
   .seller-landing-page-main {
     width: 1356px;
     margin: auto; }
@@ -8531,7 +8531,6 @@ body {
       justify-content: center;
       transition: all 0.8s ease-in-out; }
       .seller-landing-page-main-cards__card {
-        width: 588px;
         height: 401px;
         border-radius: 4px;
         box-shadow: 0 4px 8px 0 rgba(62, 66, 70, 0.15);
@@ -8542,7 +8541,7 @@ body {
           width: 320px;
           height: 182px;
           object-fit: contain;
-          margin: 39px 134px; }
+          margin: 39px auto; }
         .seller-landing-page-main-cards__card-title {
           font-family: "Work Sans", "Roboto", sans-serif;
           font-weight: bold;
@@ -8576,7 +8575,7 @@ body {
       justify-content: center;
       margin-top: 32px; }
       .seller-landing-page-main-steps__box {
-        width: ();
+        width: calC(100%/3);
         height: 283px;
         border-radius: 4px;
         text-align: center; }
@@ -8690,7 +8689,7 @@ body {
           color: #3e4246;
           padding-right: 60px; }
     .seller-landing-page-main__illustration-main {
-      background-image: url("asset2/illustration-main-content.svg");
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/illustration-main-content.svg");
       background-size: cover;
       background-repeat: no-repeat;
       width: 853px;
@@ -8793,7 +8792,7 @@ body {
       width: 183px;
       height: 318px;
       opacity: 0.5;
-      background-image: url("asset2/fill-1.svg");
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/fill-1.svg");
       bottom: 3%;
       left: 0; }
     .seller-landing-page-footer__fill-2 {
@@ -8804,7 +8803,7 @@ body {
       width: 251px;
       height: 265px;
       opacity: 0.8;
-      background-image: url("asset2/fill-2.svg");
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/fill-2.svg");
       right: 0;
       bottom: 11%; }
     .seller-landing-page-footer__fill-3 {
@@ -8815,7 +8814,7 @@ body {
       width: 34px;
       height: 40px;
       opacity: 0.8;
-      background-image: url("asset2/fill-4.svg"); }
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/fill-4.svg"); }
       .seller-landing-page-footer__fill-3--right {
         right: 11%;
         bottom: 14%;
@@ -8830,7 +8829,7 @@ body {
       width: 180px;
       height: 169px;
       object-fit: contain;
-      background-image: url("asset2/footer-leaf.svg");
+      background-image: url("https://public.urbanindo.com/images/seller-landing-page/footer-leaf.svg");
       right: 5%;
       bottom: -37px; }
 
@@ -8928,49 +8927,92 @@ body {
   body .seller-landing-page {
     position: relative;
     display: block; }
-    body .seller-landing-page-content {
+    body .seller-landing-page .question-mark-icon {
+      display: none; }
+    body .seller-landing-page .rectangle-gradient {
+      margin-top: -36px; }
+    body .seller-landing-page .hollow-square {
+      display: none; }
+      body .seller-landing-page .hollow-square--one {
+        margin-top: 32px; }
+    body .seller-landing-page__btn {
+      margin: 8px; }
+      body .seller-landing-page__btn--wa-lg {
+        padding: 18px 91px; }
+      body .seller-landing-page__btn--call-lg {
+        margin-bottom: 24px; }
+    body .seller-landing-page-nav {
+      padding: 0; }
+      body .seller-landing-page-nav-logo {
+        padding: 15px; }
+      body .seller-landing-page-nav-button {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: 56px;
+        border: solid 1px #e9e9e9;
+        background-color: #fafafa;
+        text-align: center; }
+    body .seller-landing-page-header-content {
+      flex-direction: column-reverse;
+      width: 100%; }
+    body .seller-landing-page-header-wording__title {
+      font-size: 24px;
+      line-height: normal; }
+    body .seller-landing-page-header-wording__desc {
+      line-height: normal;
+      font-size: 16px;
+      margin-bottom: 26px;
+      padding: 0; }
+    body .seller-landing-page-header__illustration-header {
+      width: 300px;
+      height: 268px;
+      margin: auto; }
+    body .seller-landing-page-main {
       display: block;
+      width: 100vw;
+      overflow: hidden; }
+      body .seller-landing-page-main__title {
+        font-size: 20px;
+        margin: 0; }
+      body .seller-landing-page-main__sub-title {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #414141;
+        margin-top: 16px; }
+      body .seller-landing-page-main__desc {
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #414141;
+        padding: 0;
+        margin: 0; }
+      body .seller-landing-page-main__illustration-main {
+        width: 328px;
+        height: 141px; }
+      body .seller-landing-page-main .hollow-square-lg {
+        width: 24px;
+        height: 24px;
+        margin: -16px 80%; }
+      body .seller-landing-page-main-steps {
+        display: block; }
+        body .seller-landing-page-main-steps__box {
+          width: 100%;
+          height: 100%; }
+          body .seller-landing-page-main-steps__box p {
+            display: none; }
+    body .seller-landing-page-footer__fill-1, body .seller-landing-page-footer__fill-2, body .seller-landing-page-footer__fill-3, body .seller-landing-page-footer__leaf {
+      display: none; }
+    body .seller-landing-page-form {
       width: 100%;
-      margin: auto; } }
-
-html,
-body {
-  height: 100%; }
-
-.fixed-red,
-.fixed-green,
-.fixed-blue {
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  background: #333; }
-
-.fixed-green {
-  top: 50px; }
-
-.fixed-blue {
-  top: 90px; }
-
-.red-active {
-  background: #f00; }
-
-.green-active {
-  background: #0f0; }
-
-.blue-active {
-  background: #00f; }
-
-.color {
-  width: 100%;
-  height: 100%; }
-
-#red {
-  background: #900; }
-
-#green {
-  background: #090; }
-
-#blue {
-  background: #009; }
+      padding: 10px; } }
