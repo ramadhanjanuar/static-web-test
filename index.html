@@ -14,24 +14,25 @@
 <div class="seller-landing-page">
     <nav class="seller-landing-page-nav">
         <div class="row seller-landing-page-nav-content">
-            <div class="col-lg-6 col-md-6 col-xs-6 seller-landing-page-nav-logo">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 seller-landing-page-nav-logo">
                 <img
-                        src="https://public.urbanindo.com/images/seller-landing-page/99logo.png"
-                        class="seller-landing-page-nav-logo__logo"
-                        alt="LOGO 99"
+                    src="https://public.urbanindo.com/images/seller-landing-page/99logo.png"
+                    class="seller-landing-page-nav-logo__logo"
+                    alt="LOGO 99"
                 >
             </div>
-            <div class="col-lg-6 col-md-6 col-xs-6 seller-landing-page-nav-button">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 seller-landing-page-nav-button">
                 <button
-                        type="button"
-                        class="seller-landing-page__btn seller-landing-page__btn--wa"
+                    type="button"
+                    class="seller-landing-page__btn seller-landing-page__btn--wa"
                 >
-                    <i class="fab fa-whatsapp fa-lg"></i> Check Whatsapp
+                    <i class="fab fa-whatsapp fa-lg"></i> Chat Whatsapp
                 </button>
                 <button
-                        onClick="callMe()"
-                        type="button"
-                        class="seller-landing-page__btn seller-landing-page__btn--call"
+                    type="button"
+                    id="call-me"
+                    class="seller-landing-page__btn seller-landing-page__btn--call"
+                    onclick="callMe()"
                 >
                     Hubungi Kami
                 </button>
@@ -41,19 +42,24 @@
 
     <!--------- HEADER -------->
     <header class="seller-landing-page-header">
-        <div class="row seller-landing-page-header-content" >
-            <div class="col-lg-6 col-md-6 col-lg-6 seller-landing-page-header-wording">
+        <div class="seller-landing-page-header-content row" >
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 seller-landing-page-header-wording">
                 <h1 class="seller-landing-page-header-wording__title">Jual Rumah Bukan Masalah Bersama 99.co Indonesia</h1>
                 <p class="seller-landing-page-header-wording__desc">
                     Menjual rumah memang tidak mudah. Untuk itu kami hadir untuk membantu menjual rumah dan properti lain bersama Anda.
                     Gratis!
                 </p>
 
-                <button onClick="callMe()" class="seller-landing-page__btn seller-landing-page__btn--call-lg">Ayo Pasang Iklan dan Hubungi Kami Sekarang</button>
+                <button
+                        class="seller-landing-page__btn seller-landing-page__btn--call-lg"
+                        onclick="callMe()"
+                >
+                    Ayo Pasang Iklan dan Hubungi Kami Sekarang
+                </button>
                 <span class="hollow-square hollow-square--one"></span>
             </div>
             <span class="hollow-circle hollow-circle--one"></span>
-            <div class="col-lg-6 col-md-6 col-xs-6">
+            <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
                 <div class="seller-landing-page-header__illustration-header"></div>
             </div>
         </div>
@@ -63,17 +69,17 @@
     <span class="seller-landing-page__horizontal-line animation-scale-small"></span>
 
     <!---------- MAIN CONTENT ---------->
-    <main class="seller-landing-page-main">
-        <section class="col-lg-12 col-md-12 col-xs-12 text-center">
+    <main class="seller-landing-page-main row">
+        <section class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center">
             <span class="rectangle-gradient"></span>
             <h1 class="seller-landing-page-main__title animation-start-from-bot">Masalah yang Sering Ditemui Saat Menjual Rumah</h1>
             <!------- CARD -------->
             <div class="row seller-landing-page-main-cards section-one">
-                <div class="col-lg-5 col-md-5 col-xs-5 seller-landing-page-main-cards__card test hidden-content">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12  seller-landing-page-main-cards__card test hidden-content">
                     <img
-                            src="asset2/illustration-need-money-2.svg"
-                            alt="image"
-                            class="seller-landing-page-main-cards__card-img"
+                        src="https://public.urbanindo.com/images/seller-landing-page/illustration-need-money-2.svg"
+                        alt="image"
+                        class="seller-landing-page-main-cards__card-img"
                     >
                     <h3 class="seller-landing-page-main-cards__card-title">Membutuhkan Uang</h3>
                     <p class="seller-landing-page-main-cards__card-desc">
@@ -82,11 +88,11 @@
                     </p>
                 </div>
 
-                <div class="col-lg-5 col-md-5 col-xs-5 seller-landing-page-main-cards__card test hidden-content">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12  seller-landing-page-main-cards__card test hidden-content">
                     <img
-                            src="asset2/illustration-less-trust-agent.svg"
-                            alt="image"
-                            class="seller-landing-page-main-cards__card-img"
+                        src="https://public.urbanindo.com/images/seller-landing-page/illustration-less-trust-agent.svg"
+                        alt="image"
+                        class="seller-landing-page-main-cards__card-img"
                     >
                     <h3 class="seller-landing-page-main-cards__card-title">Kurang Percaya Agen</h3>
                     <p class="seller-landing-page-main-cards__card-desc">
@@ -95,11 +101,11 @@
                     </p>
                 </div>
 
-                <div class="col-lg-5 col-md-5 col-xs-5 seller-landing-page-main-cards__card test hidden-content">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12  seller-landing-page-main-cards__card test hidden-content">
                     <img
-                            src="asset2/illustration-not-know-market-price2.svg"
-                            alt="image"
-                            class="seller-landing-page-main-cards__card-img"
+                        src="https://public.urbanindo.com/images/seller-landing-page/illustration-not-know-market-price2.svg"
+                        alt="image"
+                        class="seller-landing-page-main-cards__card-img"
                     >
                     <h3 class="seller-landing-page-main-cards__card-title">Tidak Mengetahui Harga Pasar</h3>
                     <p class="seller-landing-page-main-cards__card-desc">
@@ -108,11 +114,11 @@
                     </p>
                 </div>
 
-                <div class="col-lg-5 col-md-5 col-xs-5 seller-landing-page-main-cards__card test hidden-content">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12  seller-landing-page-main-cards__card test hidden-content">
                     <img
-                            src="asset2/illustration-complicated.svg"
-                            alt="image"
-                            class="seller-landing-page-main-cards__card-img"
+                        src="https://public.urbanindo.com/images/seller-landing-page/illustration-complicated.svg"
+                        alt="image"
+                        class="seller-landing-page-main-cards__card-img"
                     >
                     <h3 class="seller-landing-page-main-cards__card-title">Ribet!</h3>
                     <p class="seller-landing-page-main-cards__card-desc">
@@ -121,7 +127,12 @@
                     </p>
                 </div>
             </div>
-            <button onClick="callMe()" class="seller-landing-page__btn seller-landing-page__btn--help-advertise test hidden-content">Bantu Iklankan Rumah Saya</button>
+            <button
+                    class="seller-landing-page__btn seller-landing-page__btn--help-advertise test hidden-content"
+                    onclick="callMe()"
+            >
+                Bantu Iklankan Rumah Saya
+            </button>
         </section>
 
         <!--------- HORIZONTAL LINE --------->
@@ -137,7 +148,12 @@
             </p>
             <span class="hollow-circle hollow-circle--two"></span>
             <div class="seller-landing-page-main__illustration-main test hidden-content"></div>
-            <button onClick="callMe()" class="seller-landing-page__btn seller-landing-page__btn--help-advertise test hidden-content">Jualkan Rumah Saya Sekarang</button>
+            <button
+                class="seller-landing-page__btn seller-landing-page__btn--help-advertise test hidden-content"
+                onclick="callMe()"
+            >
+                Jualkan Rumah Saya Sekarang
+            </button>
         </section>
 
         <!--------- HORIZONTAL LINE --------->
@@ -151,9 +167,9 @@
                 <h4 class="seller-landing-page-main__sub-title-two">Hanya Perlu 3 Langkah untuk Menjual Rumah Anda!</h4>
             </div>
 
-            <div class="seller-landing-page-main-steps test hidden-content">
+            <div class="row seller-landing-page-main-steps test hidden-content">
                 <div class="seller-landing-page-main-steps__box">
-                    <img src="https://public.urbanindo.com/images/seller-landing-page/one-symb.svg">
+                    <img src="https://public.urbanindo.com/images/seller-landing-page/one-symb.svg" alt="one">
                     <h3 onclick="callMe()">Isi Form</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -182,8 +198,8 @@
         <!--------- HORIZONTAL LINE --------->
         <span class="seller-landing-page__horizontal-line test hidden-content"></span>
 
-        <section class="text-center section-four ">
-            <img src="asset2/quote.svg" alt=image"" class="quote-icon test hidden-content">
+        <section class="text-center section-four">
+            <img src="https://public.urbanindo.com/images/seller-landing-page/quote.svg" alt=image"" class="quote-icon test hidden-content">
             <h1 class="seller-landing-page-main__title test hidden-content">Jual Rumah Bukan Masalah Bareng 99.co Indonesia</h1>
             <h3 class="seller-landing-page-main__sub-title test hidden-content">Apa Kata Mereka yang Pernah Bekerja Sama dengan 99.co Indonesia?</h3>
             <div class="seller-landing-page-main-cards-testimonial">
@@ -262,7 +278,7 @@
         <span class="seller-landing-page__horizontal-line test hidden-content"></span>
 
         <section class="text-center section-five test hidden-content">
-            <img src="asset2/question-mark.svg" class="question-mark-icon test hidden-content" alt="image">
+            <img src="https://public.urbanindo.com/images/seller-landing-page/asset2/question-mark.svg" class="question-mark-icon test hidden-content" alt="image">
             <h1 class="seller-landing-page-main__title test hidden-content">Pertanyaan yang Sering Ditanyakan Tentang 99.co Indonesia</h1>
             <div class="seller-landing-page-main-questions test hidden-content">
                 <div class="seller-landing-page-main-questions__question">
@@ -360,7 +376,7 @@
     <footer class="seller-landing-page-footer">
         <h5>Copyright 2018 · 99.co</h5>
     </footer>
-
+</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -379,10 +395,6 @@
             if ($(document).scrollTop() > 250 ) {
                 $('.section-one').removeClass('section-one');
             }
-        });
-        
-        $('seller-landing-page__btn--call').click(function(){
-            callMe();
         });
 
         callMe = function() {
@@ -411,6 +423,5 @@
             });
         });
     </script>
-</div>
 </body>
 </html>
