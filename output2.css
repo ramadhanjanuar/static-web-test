@@ -8923,73 +8923,104 @@ body {
   to {
     transform: rotate(-360deg) translateX(-500px); } }
 
+@media only screen and (max-width: 1024px) {
+  .seller-landing-page .quote-icon,
+  .seller-landing-page .question-mark-icon {
+    display: none; }
+  .seller-landing-page .hollow-square--one {
+    margin-top: 30px; }
+  .seller-landing-page-nav-content {
+    width: 100%; }
+  .seller-landing-page-header-content {
+    width: 100%;
+    height: 700px; }
+  .seller-landing-page-header__illustration-header {
+    height: 385px;
+    width: auto; }
+  .seller-landing-page-main {
+    width: 100%; }
+    .seller-landing-page-main-cards-testimonial__card {
+      width: calc(100%/2 - 16px); }
+  .seller-landing-page-footer__fill-2 {
+    width: 140px;
+    height: 237px;
+    bottom: 10%; }
+  .seller-landing-page-footer__fill-3--left {
+    bottom: 14%; }
+  .seller-landing-page-footer__fill-3--right {
+    bottom: 13%;
+    right: 10%; } }
+
 @media only screen and (max-width: 991px) {
-  body .seller-landing-page {
+  .seller-landing-page {
     position: relative;
     display: block; }
-    body .seller-landing-page .quote-icon {
+    .seller-landing-page .quote-icon {
       display: none; }
-    body .seller-landing-page .question-mark-icon {
+    .seller-landing-page .question-mark-icon {
       display: none; }
-    body .seller-landing-page .rectangle-gradient {
+    .seller-landing-page .rectangle-gradient {
       margin-top: -36px; }
-    body .seller-landing-page .hollow-square {
+    .seller-landing-page .hollow-square {
       display: none; }
-      body .seller-landing-page .hollow-square--one {
+      .seller-landing-page .hollow-square--one {
         margin-top: 32px; }
-    body .seller-landing-page__btn {
+    .seller-landing-page__btn {
       margin: 8px; }
-      body .seller-landing-page__btn--call {
+      .seller-landing-page__btn--call {
         width: 37%; }
-      body .seller-landing-page__btn--wa {
+      .seller-landing-page__btn--wa {
         width: 40%; }
-      body .seller-landing-page__btn--wa-lg {
-        padding: 18px 91px;
+      .seller-landing-page__btn--wa-lg {
+        padding: 18px;
         width: 80%;
         margin: 31px auto; }
-      body .seller-landing-page__btn--call-lg {
+      .seller-landing-page__btn--call-lg {
         margin-bottom: 24px; }
-    body .seller-landing-page-nav {
+      .seller-landing-page__btn--help-advertise {
+        width: 80%;
+        padding: 6px; }
+    .seller-landing-page-nav {
       padding: 0; }
-      body .seller-landing-page-nav-logo {
+      .seller-landing-page-nav-logo {
         padding: 15px; }
-      body .seller-landing-page-nav-button {
+      .seller-landing-page-nav-button {
         position: fixed;
         bottom: 0;
         width: 100vw;
         border: solid 1px #e9e9e9;
         background-color: #fafafa;
         text-align: center; }
-    body .seller-landing-page-header-content {
+    .seller-landing-page-header-content {
       flex-direction: column-reverse;
       width: 100%; }
-    body .seller-landing-page-header-wording {
+    .seller-landing-page-header-wording {
       text-align: center;
       max-width: 100%; }
-      body .seller-landing-page-header-wording__title {
+      .seller-landing-page-header-wording__title {
         font-size: 24px;
         line-height: normal;
         text-align: left; }
-      body .seller-landing-page-header-wording__desc {
+      .seller-landing-page-header-wording__desc {
         line-height: normal;
         font-size: 16px;
         margin-bottom: 26px;
         padding: 0;
         text-align: left; }
-    body .seller-landing-page-header-illustration {
+    .seller-landing-page-header-illustration {
       max-width: 100%; }
-    body .seller-landing-page-header__illustration-header {
+    .seller-landing-page-header__illustration-header {
       width: 300px;
       height: 268px;
       margin: auto; }
-    body .seller-landing-page-main {
+    .seller-landing-page-main {
       display: block;
       width: 100vw;
       overflow: hidden; }
-      body .seller-landing-page-main__title {
+      .seller-landing-page-main__title {
         font-size: 20px;
         margin: 0; }
-      body .seller-landing-page-main__sub-title {
+      .seller-landing-page-main__sub-title {
         font-family: "Open Sans", sans-serif;
         font-size: 18px;
         font-weight: bold;
@@ -8999,8 +9030,9 @@ body {
         letter-spacing: normal;
         text-align: center;
         color: #414141;
-        margin-top: 16px; }
-      body .seller-landing-page-main__desc {
+        margin-top: 16px;
+        padding: 16px; }
+      .seller-landing-page-main__desc {
         font-size: 16px;
         font-weight: normal;
         font-style: normal;
@@ -9011,46 +9043,55 @@ body {
         color: #414141;
         padding: 0;
         margin: 0; }
-      body .seller-landing-page-main__illustration-main {
+      .seller-landing-page-main__illustration-main {
         width: 328px;
         height: 141px; }
-      body .seller-landing-page-main .hollow-square-lg {
+      .seller-landing-page-main .hollow-square-lg {
         width: 24px;
         height: 24px;
         margin: -16px 80%; }
-      body .seller-landing-page-main-steps {
+      .seller-landing-page-main-steps {
         display: block; }
-        body .seller-landing-page-main-steps__box {
+        .seller-landing-page-main-steps__box {
           width: 100%;
           height: 100%; }
-          body .seller-landing-page-main-steps__box p {
+          .seller-landing-page-main-steps__box p {
             display: none; }
-      body .seller-landing-page-main-questions {
+      .seller-landing-page-main-questions {
         padding: 16px;
         margin: 0; }
-        body .seller-landing-page-main-questions__question {
+        .seller-landing-page-main-questions__question {
           width: 100%; }
-      body .seller-landing-page-main-cards-testimonial__card {
+      .seller-landing-page-main-cards-testimonial__card {
         margin: 100px auto 0; }
-    body .seller-landing-page .section-six__line {
-      width: 33%; }
-    body .seller-landing-page-form {
+    .seller-landing-page .section-six__line {
+      width: 30%; }
+    .seller-landing-page-form {
       width: 80%;
       padding: 10px; }
-    body .seller-landing-page-footer__fill-1, body .seller-landing-page-footer__fill-2, body .seller-landing-page-footer__fill-3, body .seller-landing-page-footer__leaf {
+      .seller-landing-page-form button {
+        width: 90%; }
+    .seller-landing-page-footer__fill-1, .seller-landing-page-footer__fill-2, .seller-landing-page-footer__fill-3, .seller-landing-page-footer__leaf {
       display: none; } }
 
 @media only screen and (max-width: 375px) {
   .seller-landing-page__btn {
     font-size: 13px;
-    padding: 9px 18px; } }
+    padding: 9px 18px; }
+  .seller-landing-page-form__title {
+    margin: 0;
+    font-size: 16px; } }
 
 @media only screen and (max-width: 360px) {
   .seller-landing-page__btn {
     font-size: 12px;
-    padding: 8px 18px; } }
+    padding: 8px 18px; }
+    .seller-landing-page__btn--wa-lg {
+      padding: 0 0; } }
 
 @media only screen and (max-width: 320px) {
   .seller-landing-page__btn {
     font-size: 10px;
-    padding: 6px 18px; } }
+    padding: 6px 18px; }
+  .seller-landing-page-form .form-group label {
+    font-size: 12px; } }
