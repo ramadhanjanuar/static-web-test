@@ -8923,34 +8923,72 @@ body {
   to {
     transform: rotate(-360deg) translateX(-500px); } }
 
+/*
 @media only screen and (max-width: 1024px) {
-  .seller-landing-page .quote-icon,
-  .seller-landing-page .question-mark-icon {
-    display: none; }
-  .seller-landing-page .hollow-square--one {
-    margin-top: 30px; }
-  .seller-landing-page-nav-content {
-    width: 100%; }
-  .seller-landing-page-header-content {
-    width: 100%;
-    height: 700px; }
-  .seller-landing-page-header__illustration-header {
-    height: 385px;
-    width: auto; }
-  .seller-landing-page-main {
-    width: 100%; }
-    .seller-landing-page-main-cards-testimonial__card {
-      width: calc(100%/2 - 16px); }
-  .seller-landing-page-footer__fill-2 {
-    width: 140px;
-    height: 237px;
-    bottom: 10%; }
-  .seller-landing-page-footer__fill-3--left {
-    bottom: 14%; }
-  .seller-landing-page-footer__fill-3--right {
-    bottom: 13%;
-    right: 10%; } }
+    .seller-landing-page {
 
+        .quote-icon,
+        .question-mark-icon {
+            display: none;
+        }
+
+        .hollow-square {
+            &--one {
+                margin-top: 30px;
+            }
+        }
+
+        &-nav {
+            &-content {
+                width: 100%;
+            }
+        }
+
+        &-header {
+            &-content {
+                width: 100%;
+                height: 700px;
+            }
+
+            &__illustration-header {
+                height: 385px;
+                width: auto;
+            }
+        }
+
+        &-main {
+            width: 100%;
+
+            &-cards-testimonial{
+                &__card {
+                    width: calc(100%/2 - 16px);
+                }
+            }
+        }
+
+        &-footer {
+            &__fill {
+                &-2 {
+                    width: 140px;
+                    height: 237px;
+                    bottom: 10%;
+                }
+
+                &-3 {
+                    &--left {
+                        bottom: 14%;
+                    }
+
+                    &--right {
+                        bottom: 13%;
+                        right: 10%;
+                    }
+                }
+            }
+        }
+    }
+}
+*/
 @media only screen and (max-width: 991px) {
   .seller-landing-page {
     position: relative;
