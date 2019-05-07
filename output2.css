@@ -8613,7 +8613,7 @@ body {
       .seller-landing-page-main .seller-landing-page-main-cards-testimonial__card {
         margin-top: 100px;
         text-align: center;
-        width: 376px;
+        width: calc(100% / 3 - 16px);
         height: 217px;
         border-radius: 8px;
         box-shadow: 0 4px 8px 0 rgba(62, 66, 70, 0.15);
@@ -8923,72 +8923,41 @@ body {
   to {
     transform: rotate(-360deg) translateX(-500px); } }
 
-/*
 @media only screen and (max-width: 1024px) {
-    .seller-landing-page {
+  .seller-landing-page .quote-icon,
+  .seller-landing-page .question-mark-icon {
+    display: none; }
+  .seller-landing-page .hollow-square--one {
+    margin-top: 30px; }
+  .seller-landing-page .hollow-circle--two {
+    display: none; }
+  .seller-landing-page-nav-content {
+    width: 100%;
+    padding: 0 80px; }
+  .seller-landing-page-header-content {
+    width: 100%;
+    height: 700px;
+    padding: 80px; }
+  .seller-landing-page-header__illustration-header {
+    height: 400px;
+    width: 44vw;
+    margin-top: 60px;
+    margin-left: 0; }
+  .seller-landing-page-main {
+    width: 100%;
+    padding: 80px; }
+    .seller-landing-page-main-cards-testimonial__card {
+      width: calc(100% / 3 - 16px); }
+  .seller-landing-page-footer__fill-2 {
+    width: 140px;
+    height: 237px;
+    bottom: 10%; }
+  .seller-landing-page-footer__fill-3--left {
+    bottom: 14%; }
+  .seller-landing-page-footer__fill-3--right {
+    bottom: 13%;
+    right: 10%; } }
 
-        .quote-icon,
-        .question-mark-icon {
-            display: none;
-        }
-
-        .hollow-square {
-            &--one {
-                margin-top: 30px;
-            }
-        }
-
-        &-nav {
-            &-content {
-                width: 100%;
-            }
-        }
-
-        &-header {
-            &-content {
-                width: 100%;
-                height: 700px;
-            }
-
-            &__illustration-header {
-                height: 385px;
-                width: auto;
-            }
-        }
-
-        &-main {
-            width: 100%;
-
-            &-cards-testimonial{
-                &__card {
-                    width: calc(100%/2 - 16px);
-                }
-            }
-        }
-
-        &-footer {
-            &__fill {
-                &-2 {
-                    width: 140px;
-                    height: 237px;
-                    bottom: 10%;
-                }
-
-                &-3 {
-                    &--left {
-                        bottom: 14%;
-                    }
-
-                    &--right {
-                        bottom: 13%;
-                        right: 10%;
-                    }
-                }
-            }
-        }
-    }
-}
-*/
 @media only screen and (max-width: 991px) {
   .seller-landing-page {
     position: relative;
