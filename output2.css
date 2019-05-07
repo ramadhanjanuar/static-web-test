@@ -8948,6 +8948,19 @@ body {
     padding: 80px; }
     .seller-landing-page-main-cards-testimonial__card {
       width: calc(100% / 3 - 16px); }
+    .seller-landing-page-main-steps__box p {
+      font-family: "Open Sans", sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: center;
+      color: #3e4246;
+      padding: 0 36px 0; }
+    .seller-landing-page-main-steps__box h3 {
+      font-size: 16px; }
   .seller-landing-page-footer__fill-2 {
     width: 140px;
     height: 237px;
